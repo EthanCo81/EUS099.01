@@ -4,40 +4,145 @@ var geoJson = [{
     {
       "type": "Feature",
       "properties": {
-        "title": "Brandenburg Gate",
-		"marker-size": "medium",
-	"marker-color": "#3366FF",
-	"marker-symbol": "star-stroked",
-	"images":[[ "images/Brandenburger_Tor_abends.jpg", "The Brandenburg Gate."],[ "images/Brandenburger2.jpg", "The Brandengurb Gate quadriga at night."]]},
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "13.377674",
-          "52.516224"
-        ]
-      }
-      }
-    ,
-    {
-      "type": "Feature",
-      "properties": {
-<<<<<<< HEAD
-        "title": “Koeningsplatz”,
-=======
-        "title": "Koeningsplatz",
->>>>>>> FETCH_HEAD
+        "title": "Hansa Studios",
         "marker-size": "medium",
-	"marker-color": "#e5c278",
-	"marker-symbol": "star-stroked",
-	"images":[["images/1280px-Königsplatz_Berlin,_um_1880.jpg", "The Königsplatz with the Raczyński Palace in 1880."],["images/Reichstag_building_Berlin_view_from_west_before_sunset.jpg", "The Reichstag building."]]
+        "marker-color": "#FF00C9",
+        "marker-symbol": "music",
+        "images": [
+          ['<img src="images/BonoAtHansa.jpg" />',
+            "U2 star Bono preparing to record at Hansa Studios."
+          ],
+
+          ['<img src="images/Studio2.jpg" />',
+            "The Famous Hansa Studio 2."
+          ],
+
+          ['<img src="images/GarethJones.jpg" />',
+            "Now-famous producer Gareth Jones working in Studio 2."
+          ],
+
+          ['<img src="images/HansaBallroom.jpg" />',
+            "One of the ballrooms of Hansa Studio."
+          ],
+
+
+
+          ["<iframe width=\"180\" src=\"https://www.youtube.com/embed/ilwteQnEOmE\" frameborder=\"0\" allowfullscreen></iframe>",
+          "Bowie performs his famous song \"Heroes\", which he recorded at Hansa Studios."
+          ]
+
+        ]
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          "13.376199",
-          "52.517539"
+          "13.376987",
+          "52.506317"
         ]
       }
     },
-  ]
-  }];
+     {
+      "type": "Feature",
+      "properties": {
+        "title": "Reichstag",
+        "marker-size": "medium",
+        "marker-color": "#FF8C00",
+        "marker-symbol": "town-hall",
+        "images": [
+
+          ['<img src="images/Reichstag1945.jpg" />',
+            "The Reichstag post WWII."
+          ],
+
+          ['<img src="images/Reichstag1970.jpg" />',
+            "The Reichstag, still unused, in 1970."
+          ],
+
+          ['<img src="images/CurrentReichstag.jpg" />',
+            "The Reichstag as it is now."
+          ],
+
+          ['<img src="images/ReichDomeOut.jpg" />',
+            "A look from the roof."
+          ],
+
+          ['<img src="images/ReichDomeInt.jpg" />',
+            "A look from the interior."
+          ],
+
+          [
+            '<iframe width="155"  src="http://www.youtube.com/embed/cklBBshc_uQ?rel=0" frameborder="0" allowfullscreen></iframe>',
+            "A tour of the Reichstag building."
+          ],
+
+        ]
+      },
+
+
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "13.376187",
+          "52.51862"
+        ]
+      }
+      },
+
+      {
+        "type": "Feature",
+        "properties": {
+          "title": "Leninplatz",
+          "marker-size": "medium",
+          "marker-color": "#000080",
+          "marker-symbol": "monument",
+          "images": [
+
+            ['<img src="images/PioneerParade.jpg" />',
+              "GDR citizens gather at Leninplatz for the \"Pioniertreffen (Pioneer Parade)\" on May 5th, 1970."
+            ],
+
+            ['<img src="images/LandsbergerPlatz.jpg" />',
+              "Pre-WWII Landsberger railway station."
+            ],
+
+            ['<img src="images/MarxStamp.jpg" />',
+              "GDR stamps."
+            ],
+
+            ['<img src="images/LeninStamp.jpg" />',
+              "A closer look at the GDR Leninplatz stamp."
+            ],
+
+            ['<img src="images/LeninProtest.jpg" />',
+              "Demonstrators at Leninplatz in response to \"US imperial forces\" in Vietnam."
+            ],
+
+            ['<img src="images/LeninplatzNow.jpg" />',
+              "Leninplatz now - Renamed Platz der Vereinten Nationen (United Nations Square)."
+            ],
+
+            ['<img src="images/UNSquare.jpg" />',
+              "Layout of UN Square."
+            ],
+
+
+
+            ["<iframe width=\"180\"  src=\"https://www.youtube.com/embed/mIjSaHUKD5I\" frameborder=\"0\" allowfullscreen></iframe>",
+            "German movie \"Goodbye Berlin\"."
+            ]
+
+
+
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            "13.4536465",
+            "52.5276822"
+          ]
+        }
+      },
+
+      ]
+      }];
