@@ -70,10 +70,7 @@ var geoJson = [{
             "A look from the interior."
           ],
 
-          [
-            '<iframe width="155"  src="http://www.youtube.com/embed/cklBBshc_uQ?rel=0" frameborder="0" allowfullscreen></iframe>',
-            "A tour of the Reichstag building."
-          ],
+
 
         ]
       },
@@ -127,8 +124,8 @@ var geoJson = [{
 
 
 
-            ["<iframe width=\"180\"  src=\"https://www.youtube.com/embed/mIjSaHUKD5I\" frameborder=\"0\" allowfullscreen></iframe>",
-            "German movie \"Goodbye Berlin\"."
+            ["<iframe width=\"180\"  src=\"http://www.youtube.com/embed/mIjSaHUKD5I\" frameborder=\"0\" allowfullscreen></iframe>",
+            "German movie \"Goodbye, Lenin\"."
             ]
 
 
